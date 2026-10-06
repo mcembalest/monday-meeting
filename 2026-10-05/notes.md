@@ -40,6 +40,6 @@ evaluate_learner()                           # measurement only; no updates
 └─ test_in_context_learning()
 ```
 
-## Reflection
+## Conceptual summary (from the gist shared by Mukund)
 
 The core recursion, conceptually: **the generator learns what to teach by watching how the learner learns.** The actual training loop is iterative, not a recursive function call.
